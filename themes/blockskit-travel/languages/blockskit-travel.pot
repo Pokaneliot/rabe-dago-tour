@@ -1,0 +1,710 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blockskit Travel\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-26 11:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.0; wp-6.8.3; php-7.4.21\n"
+"X-Domain: blockskit-travel"
+
+#: patterns/home-features.php:78
+msgid "(555) 245-3599"
+msgstr ""
+
+#: patterns/home-features.php:96
+msgid "01."
+msgstr ""
+
+#: patterns/home-features.php:118
+msgid "02."
+msgstr ""
+
+#: patterns/home-features.php:140
+msgid "03."
+msgstr ""
+
+#: patterns/home-features.php:162
+msgid "04."
+msgstr ""
+
+#: patterns/home-features.php:36
+msgid "30%"
+msgstr ""
+
+#: patterns/home-packages.php:102
+msgid "7 Nights - 8 Days"
+msgstr ""
+
+#: patterns/home-packages.php:52 patterns/home-packages.php:152
+msgid "8 Nights - 9 Days"
+msgstr ""
+
+#: patterns/home-latest-posts.php:14
+msgid "[  LATEST BLOG  ]"
+msgstr ""
+
+#: patterns/home-destination.php:18
+msgid "[  POPULAR DESTINATION ]"
+msgstr ""
+
+#: patterns/home-packages.php:14
+msgid "[ TOUR PACKAGES ]"
+msgstr ""
+
+#: patterns/home-hero-banner.php:22
+msgid "[ TRAVEL AGENCY FIRM ]"
+msgstr ""
+
+#: patterns/home-features.php:18
+msgid "[ WHY CHOOSE US ]"
+msgstr ""
+
+#: patterns/home-destination.php:61
+msgid "Bali, Indonesia"
+msgstr ""
+
+#: patterns/home-features.php:167
+msgid "Best Affordable Pricing"
+msgstr ""
+
+#: patterns/template-order-confirmation.php:68
+msgid "Billing address"
+msgstr ""
+
+#. Name of the theme
+msgid "Blockskit Travel"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Blockskit Travel is a modern, versatile FSE WordPress theme designed for "
+"travel, travel guide, travel agency, tour, tour operator, tourism, trip, "
+"destination, holiday, trip booking, resort, vacation, service, adventure, "
+"accommodation, and other travel websites—no coding required. With full-site "
+"editing, you can easily customize every aspect of your site, including "
+"headers and footers. Featuring multiple templates, patterns, and style "
+"variations, it adapts seamlessly to various aesthetics and business needs."
+msgstr ""
+
+#. Author of the theme
+msgid "BlockskitDev"
+msgstr ""
+
+#: patterns/home-features.php:61
+msgid "Book A Tour"
+msgstr ""
+
+#: patterns/home-packages.php:78 patterns/home-packages.php:128
+#: patterns/home-packages.php:178
+msgid "BOOK NOW"
+msgstr ""
+
+#: patterns/template-cart.php:212
+msgid "Browse store"
+msgstr ""
+
+#: patterns/home-destination.php:97
+msgid "Burj Khalifa, Dubai"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Accent"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Accent Text"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Background"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Body"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Current Color"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Foreground"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Heading"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Highlight"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Hover"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Inherit"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Light"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Neutral"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Outline"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Pure Black"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Pure White"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Secondary"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Secondary Accent"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Secondary Accent Text"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Surface"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Transparent"
+msgstr ""
+
+#: patterns/footer.php:53
+msgid "Company"
+msgstr ""
+
+#: patterns/footer.php:108
+msgid "Copyright © 2025 ·"
+msgstr ""
+
+#: patterns/home-features.php:45
+msgid "DISCOUNT !!"
+msgstr ""
+
+#: patterns/home-hero-banner.php:26
+msgid "Discover The Beautiful World With Us.."
+msgstr ""
+
+#: patterns/template-order-confirmation.php:48
+msgid "Downloads"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Duotone name"
+msgid "Light"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Duotone name"
+msgid "Primary"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Duotone name"
+msgid "Secondary"
+msgstr ""
+
+#: patterns/home-features.php:22
+msgid "Enjoy the Perfect Trip Created by Our Travel Experts."
+msgstr ""
+
+#: patterns/home-destination.php:117
+msgid ""
+"Enjoy The Stunning Natural Beauty That Awaits At Every Tour Destination."
+msgstr ""
+
+#: patterns/home-features.php:51
+msgid ""
+"Exclusive Travel&nbsp;Discounts &amp;&nbsp;Special Offers By Our&nbsp;"
+"Travel&nbsp;&amp; Tour&nbsp;Agency"
+msgstr ""
+
+#: patterns/home-features.php:145
+msgid "Expert Travel Guides"
+msgstr ""
+
+#: patterns/home-features.php:123
+msgid "Flexible Tour Packages"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font family name"
+msgid "Inter"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font family name"
+msgid "Plus Jakarta Sans"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font family name"
+msgid "Poppins"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "X Large"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "X Small"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "XX Large"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "XXX Large"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "XXX Large Ext"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "XXXX Large"
+msgstr ""
+
+#: patterns/header.php:34
+msgid "Get Started"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Gradient name"
+msgid "Primary"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://blockskit.com"
+msgstr ""
+
+#. URI of the theme
+msgid "https://blockskit.com/blockskit-travel/"
+msgstr ""
+
+#: patterns/home-packages.php:64
+msgid "INDONESIA"
+msgstr ""
+
+#: patterns/home-packages.php:114
+msgid "JAPAN"
+msgstr ""
+
+#: patterns/home-packages.php:119
+msgid "Japan Tradition, Culture &amp; City Tour Packages"
+msgstr ""
+
+#: patterns/home-latest-posts.php:18
+msgid "Know More From Our Latest Insights &amp; News"
+msgstr ""
+
+#: patterns/home-features.php:55
+msgid ""
+"Lacus deserunt, sociosqu blandit asperiores aliqua nascetur! Consequat "
+"integer omnis, tempor suscipit!  Deleniti tortor asperna."
+msgstr ""
+
+#: patterns/home-hero-banner.php:40 patterns/home-packages.php:192
+msgid "Learn More"
+msgstr ""
+
+#: patterns/home-hero-banner.php:36
+msgid "Let&#39;s Book Trip"
+msgstr ""
+
+#: patterns/home-features.php:105 patterns/home-features.php:127
+#: patterns/home-features.php:149 patterns/home-features.php:171
+msgid "Litora pede, recusandae amet aliquam. Cupiditate molestiae ne."
+msgstr ""
+
+#: patterns/home-latest-posts.php:29 patterns/home-packages.php:29
+msgid ""
+"Litora pede, recusandae amet aliquam. Cupiditate molestiae nec venenatis at "
+"massa risus, eum fugiat conubia integer at mattis."
+msgstr ""
+
+#: patterns/home-packages.php:69
+msgid "Magical Bali Getaway And City Tours"
+msgstr ""
+
+#: patterns/home-destination.php:127
+msgid "More Destination"
+msgstr ""
+
+#: patterns/template-cart.php:220
+msgid "New in store"
+msgstr ""
+
+#: patterns/footer.php:19
+msgid ""
+"Nisl libero ullamcorper id ipsum viverra mauris non pellentesque placerat "
+"lorem lacinia sagittis non pretium."
+msgstr ""
+
+#: patterns/template-product-search-results.php:48
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: patterns/template-order-confirmation.php:22
+msgid "Order Confirmation"
+msgstr ""
+
+#: patterns/template-order-confirmation.php:40
+msgid "Order details"
+msgstr ""
+
+#: patterns/home-packages.php:18
+msgid "Our Exclusive Tour &amp; Travel Packages"
+msgstr ""
+
+#: patterns/home-features.php:41
+msgid "PACKAGES"
+msgstr ""
+
+#: patterns/home-destination.php:2
+msgctxt "Pattern title"
+msgid "Destination"
+msgstr ""
+
+#: patterns/home-features.php:2
+msgctxt "Pattern title"
+msgid "Features"
+msgstr ""
+
+#: patterns/footer.php:2
+msgctxt "Pattern title"
+msgid "Footer"
+msgstr ""
+
+#: patterns/header.php:2
+msgctxt "Pattern title"
+msgid "Header"
+msgstr ""
+
+#: patterns/header-home.php:2
+msgctxt "Pattern title"
+msgid "Header Home"
+msgstr ""
+
+#: patterns/home-hero-banner.php:2
+msgctxt "Pattern title"
+msgid "Hero Banner"
+msgstr ""
+
+#: patterns/home.php:2
+msgctxt "Pattern title"
+msgid "Home"
+msgstr ""
+
+#: patterns/home-latest-posts.php:2
+msgctxt "Pattern title"
+msgid "Latest Posts"
+msgstr ""
+
+#: patterns/home-packages.php:2
+msgctxt "Pattern title"
+msgid "Packages"
+msgstr ""
+
+#: patterns/template-404.php:2
+msgctxt "Pattern title"
+msgid "Template 404"
+msgstr ""
+
+#: patterns/template-archive.php:2
+msgctxt "Pattern title"
+msgid "Template Archive"
+msgstr ""
+
+#: patterns/template-archive-product.php:2
+msgctxt "Pattern title"
+msgid "Template Archive Product"
+msgstr ""
+
+#: patterns/template-blog-listing.php:2
+msgctxt "Pattern title"
+msgid "Template Blog Listing"
+msgstr ""
+
+#: patterns/template-cart.php:2
+msgctxt "Pattern title"
+msgid "Template Cart"
+msgstr ""
+
+#: patterns/template-checkout.php:2
+msgctxt "Pattern title"
+msgid "Template Checkout"
+msgstr ""
+
+#: patterns/template-full-width.php:2
+msgctxt "Pattern title"
+msgid "Template Full Width"
+msgstr ""
+
+#: patterns/template-index.php:2
+msgctxt "Pattern title"
+msgid "Template Index"
+msgstr ""
+
+#: patterns/template-order-confirmation.php:2
+msgctxt "Pattern title"
+msgid "Template Order Confirmation"
+msgstr ""
+
+#: patterns/template-page.php:2
+msgctxt "Pattern title"
+msgid "Template Page"
+msgstr ""
+
+#: patterns/template-page-no-gap.php:2
+msgctxt "Pattern title"
+msgid "Template Page No Gap"
+msgstr ""
+
+#: patterns/template-page-no-title.php:2
+msgctxt "Pattern title"
+msgid "Template Page No Title"
+msgstr ""
+
+#: patterns/template-product-search-results.php:2
+msgctxt "Pattern title"
+msgid "Template Product Search Results"
+msgstr ""
+
+#: patterns/template-search.php:2
+msgctxt "Pattern title"
+msgid "Template Search"
+msgstr ""
+
+#: patterns/template-single.php:2
+msgctxt "Pattern title"
+msgid "Template Single"
+msgstr ""
+
+#: patterns/template-single-product.php:2
+msgctxt "Pattern title"
+msgid "Template Single Product"
+msgstr ""
+
+#: patterns/home-destination.php:43
+msgid "Phuket, Thailand"
+msgstr ""
+
+#: patterns/home-hero-banner.php:30
+msgid ""
+"Possimus delectus suscipit, alias deleniti laboriosam quibusdam ipsam felis "
+"ipsum sollicitudin pharetra pellentesque sagittis ex."
+msgstr ""
+
+#: patterns/footer.php:37
+msgid "Products"
+msgstr ""
+
+#: patterns/template-single-product.php:57
+msgid "Related products"
+msgstr ""
+
+#: patterns/footer.php:73
+msgid "Resources"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Shadow name"
+msgid "Bold"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Shadow name"
+msgid "Light"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Shadow name"
+msgid "Soft"
+msgstr ""
+
+#: patterns/template-order-confirmation.php:58
+msgid "Shipping address"
+msgstr ""
+
+#: patterns/template-single-product.php:15
+msgid "Single Product"
+msgstr ""
+
+#: patterns/template-search.php:50
+msgid "Sorry, but nothing matched your search terms. Try another search?"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "X Large"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "X Small"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "XX Large"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "XX Small"
+msgstr ""
+
+#: patterns/home-packages.php:174
+msgid "Starting at $1,199/adult"
+msgstr ""
+
+#: patterns/home-packages.php:124
+msgid "Starting at $1,299/adult"
+msgstr ""
+
+#: patterns/home-packages.php:74
+msgid "Starting at $999/adult"
+msgstr ""
+
+#: patterns/footer.php:89
+msgid "Support"
+msgstr ""
+
+#: patterns/home-packages.php:164
+msgid "THAILAND"
+msgstr ""
+
+#: patterns/home-packages.php:169
+msgid "Thailand Natural Explorer Tour Packages"
+msgstr ""
+
+#: functions.php:48
+msgid "Theme Patterns"
+msgstr ""
+
+#: patterns/template-404.php:23
+msgid "This page could not be found. Maybe try a search?"
+msgstr ""
+
+#: patterns/home-features.php:74
+msgid "TO MORE INQUIRY :"
+msgstr ""
+
+#: patterns/home-destination.php:79
+msgid "Tokyo, Japan"
+msgstr ""
+
+#: patterns/home-features.php:101
+msgid "Top Travel Destination"
+msgstr ""
+
+#: patterns/home-destination.php:22
+msgid "Uncover The Beauty of Your Next Travel Destination"
+msgstr ""
+
+#: patterns/home-packages.php:188
+msgid "View All  Packages"
+msgstr ""
+
+#: patterns/template-cart.php:26 patterns/template-cart.php:89
+#: patterns/template-cart.php:152
+msgid "You may be interested in…"
+msgstr ""
+
+#: patterns/template-cart.php:208
+msgid "Your cart is currently empty!"
+msgstr ""
+
+#: patterns/footer.php:114
+msgid "· All rights reserved"
+msgstr ""

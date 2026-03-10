@@ -1,0 +1,55 @@
+# WordPress - wp-content specific
+
+# Uploads folder (media files)
+uploads/
+
+# Cache folders
+cache/
+*/cache/
+
+# Backup files
+*.sql
+*.sql.gz
+*.bak
+backup/
+backups/
+
+# Debug and error logs
+debug.log
+error_log
+*.log
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.temp
+
+# Advanced Cache
+advanced-cache.php
+object-cache.php
+
+# Upgrade folder
+upgrade/
+
+# W3 Total Cache
+w3tc-config/
+
+# WP Super Cache
+wp-cache-config.php
