@@ -18,5 +18,97 @@ Blockskit Travel WordPress Theme, Copyright 2025 BlockskitDev
 Blockskit Travel is distributed under the terms of the GNU General Public License v3
 */
 
+ /* Css du formualaire de reservation */
+/* Conteneur du formulaire */
+.reservation-form-container {
+    max-width: 550px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
 
+/* Titres ou headings éventuels */
+.reservation-form-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+}
 
+/* Groupes de champs */
+.reservation-form-container .form-group {
+    margin-bottom: 15px;
+}
+
+/* Labels */
+.reservation-form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #555;
+}
+
+/* Inputs et textarea */
+.reservation-form-container input,
+.reservation-form-container select,
+.reservation-form-container textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    transition: 0.3s;
+    box-sizing: border-box;
+}
+
+/* Focus */
+.reservation-form-container input:focus,
+.reservation-form-container select:focus,
+.reservation-form-container textarea:focus {
+    border-color: #0d6efd;
+    outline: none;
+    box-shadow: 0 0 5px rgba(13,110,253,0.3);
+}
+
+/* Bouton submit */
+.reservation-form-container button {
+    width: 100%;
+    padding: 14px;
+    background: #0d6efd;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+/* Hover bouton */
+.reservation-form-container button:hover {
+    background: #0b5ed7;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .reservation-form-container {
+        padding: 20px;
+        margin: 20px;
+    }
+    .reservation-form-container input,
+    .reservation-form-container select,
+    .reservation-form-container textarea {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .reservation-form-container button {
+        font-size: 15px;
+        padding: 12px;
+    }
+}
+/* Css du formualaire de reservation */
