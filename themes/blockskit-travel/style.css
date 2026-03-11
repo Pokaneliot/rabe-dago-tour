@@ -20,95 +20,119 @@ Blockskit Travel is distributed under the terms of the GNU General Public Licens
 
  /* Css du formualaire de reservation */
 /* Conteneur du formulaire */
-.reservation-form-container {
-    max-width: 550px;
-    margin: 40px auto;
-    padding: 30px;
-    background: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+/*
+ Theme Name: Blockskit Travel Enfant
+ Template: blockskit-travel
+*/
+
+/* ============================================================
+   FORMULAIRE DE RÉSERVATION - Rabe Dago Tour
+   Couleurs : Bleu #1a6be8 · Orange #e8621a
+   ============================================================ */
+
+.rdt-form-wrapper {
+    max-width: 680px;
+    margin: 0 auto;
     font-family: Arial, sans-serif;
 }
 
-/* Titres ou headings éventuels */
-.reservation-form-container h2 {
-    text-align: center;
-    margin-bottom: 25px;
-    font-size: 24px;
-    font-weight: 700;
-    color: #333;
+.rdt-form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
 }
 
-/* Groupes de champs */
-.reservation-form-container .form-group {
-    margin-bottom: 15px;
-}
-
-/* Labels */
-.reservation-form-container label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: 600;
-    color: #555;
-}
-
-/* Inputs et textarea */
-.reservation-form-container input,
-.reservation-form-container select,
-.reservation-form-container textarea {
-    width: 100%;
-    padding: 12px;
-    border-radius: 6px;
-    border: 1px solid #ddd;
-    font-size: 14px;
-    transition: 0.3s;
-    box-sizing: border-box;
-}
-
-/* Focus */
-.reservation-form-container input:focus,
-.reservation-form-container select:focus,
-.reservation-form-container textarea:focus {
-    border-color: #0d6efd;
-    outline: none;
-    box-shadow: 0 0 5px rgba(13,110,253,0.3);
-}
-
-/* Bouton submit */
-.reservation-form-container button {
-    width: 100%;
-    padding: 14px;
-    background: #0d6efd;
-    color: #fff;
-    border: none;
-    border-radius: 6px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: 0.3s;
-    margin-top: 10px;
-}
-
-/* Hover bouton */
-.reservation-form-container button:hover {
-    background: #0b5ed7;
-}
-
-/* Responsive */
 @media (max-width: 600px) {
-    .reservation-form-container {
-        padding: 20px;
-        margin: 20px;
+    .rdt-form-row {
+        grid-template-columns: 1fr;
     }
-    .reservation-form-container input,
-    .reservation-form-container select,
-    .reservation-form-container textarea {
-        font-size: 14px;
-        padding: 10px;
-    }
-    .reservation-form-container button {
-        font-size: 15px;
-        padding: 12px;
-    }
+}
+
+.rdt-form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.rdt-form-group label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1a4a7a; /* bleu foncé */
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.rdt-form-group label span {
+    color: #e8621a; /* orange */
+}
+
+.rdt-form-group label .optional {
+    color: #aaa;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.rdt-form-group input,
+.rdt-form-group textarea {
+    padding: 12px 16px;
+    border: 1.5px solid #b8d0ea; /* bleu clair */
+    border-radius: 8px;
+    font-size: 15px;
+    color: #333;
+    background: #f5f9ff; /* fond bleu très clair */
+    transition: border-color 0.2s, box-shadow 0.2s;
+    outline: none;
+}
+
+.rdt-form-group input:focus,
+.rdt-form-group textarea:focus {
+    border-color: #1a6be8; /* bleu vif au focus */
+    box-shadow: 0 0 0 3px rgba(26, 107, 232, 0.12);
+    background: #fff;
+}
+
+.rdt-form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Bouton : dégradé bleu → orange */
+.rdt-submit-btn {
+    display: inline-block;
+    width: 100%;
+    padding: 15px 24px;
+    background: linear-gradient(135deg, #1a6be8, #e8621a);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: opacity 0.2s, transform 0.1s;
+    margin-top: 8px;
+    letter-spacing: 0.5px;
+}
+
+.rdt-submit-btn:hover {
+    opacity: 0.92;
+    transform: translateY(-1px);
+}
+
+.rdt-submit-btn:active {
+    transform: translateY(0);
+}
+
+/* Message de succès */
+.rdt-success-message {
+    background: linear-gradient(135deg, #e8f0fe, #fff3e0);
+    border-left: 4px solid #1a6be8;
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
 }
 /* Css du formualaire de reservation */
