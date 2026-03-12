@@ -1,0 +1,351 @@
+/* ============================================================
+   TOUR DETAIL PAGE - ELEMENTOR REPRODUCTION STYLE
+   ============================================================ */
+
+:root {
+    --el-blue: #78c6e9;
+    /* Light blue from screenshots */
+    --el-dark: #1f2937;
+    --el-text: #4b5563;
+    --el-bg: #ffffff;
+    --el-ghost: #f9fafb;
+    --el-radius: 12px;
+    --el-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* 4.1 HERO BANNER (REPRODUCED) */
+.tour-hero-block {
+    position: relative;
+    border-radius: 0;
+    margin-bottom: 0px;
+}
+
+.tour-hero-block h2 {
+    font-size: clamp(2rem, 6vw, 4.5rem);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.tour-hero-block p {
+    max-width: 800px;
+    margin: 20px auto 0;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* GLOBAL TITLES */
+.el-blue-title {
+    color: var(--el-blue);
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.el-centered-text {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    text-align: center;
+    color: var(--el-text);
+    line-height: 1.7;
+}
+
+/* 4.3 ALTERNATING ITINERARY */
+.itinerary-row {
+    margin-bottom: 80px;
+    align-items: center;
+}
+
+.itinerary-day-title {
+    color: var(--el-blue);
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.itinerary-text {
+    color: var(--el-text);
+    line-height: 1.8;
+}
+
+.itinerary-image img {
+    border-radius: 8px;
+    box-shadow: var(--el-shadow);
+    width: 100%;
+    height: auto;
+}
+
+/* 4.2 HIGHLIGHTS (FEATURE CARDS) */
+.feature-cards-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px !important;
+    margin-top: 50px !important;
+}
+
+.feature-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    box-shadow: var(--el-shadow);
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-card h4 {
+    color: var(--el-blue);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    font-size: 0.95rem;
+    color: var(--el-text);
+}
+
+/* 4.4 LOGISTICS (INCLUDED/NOT INCLUDED) */
+.logistics-container {
+    background: var(--el-ghost);
+    padding: 60px 0;
+    margin-top: 60px;
+}
+
+.logistics-box {
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+    height: 100%;
+}
+
+.logistics-header {
+    border-bottom: 1px solid #e5e7eb;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+}
+
+.logistics-box.included .logistics-header {
+    color: #059669;
+    /* Green */
+    background: #ecfdf5;
+}
+
+.logistics-box.included .logistics-header::before {
+    content: '✓';
+    color: #059669;
+}
+
+.logistics-box.excluded .logistics-header {
+    color: #dc2626;
+    /* Red */
+    background: #fef2f2;
+}
+
+.logistics-box.excluded .logistics-header::before {
+    content: '✕';
+    color: #dc2626;
+}
+
+.logistics-list {
+    padding: 20px !important;
+    list-style: none !important;
+    margin-left: 0 !important;
+}
+
+.logistics-list li {
+    margin-bottom: 12px;
+    color: var(--el-text);
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 0.95rem;
+}
+
+.logistics-list li::before {
+    content: '•';
+    color: var(--el-blue);
+    font-weight: bold;
+}
+
+/* 4.5 SIDEBAR STICKY (KEEPING GOOD PRACTICES) */
+@media (min-width: 1024px) {
+    .tour-sidebar-col {
+        position: sticky;
+        top: 20px;
+    }
+}
+
+.reservation-card {
+    background: var(--el-dark);
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.reservation-card h3 {
+    color: var(--el-blue);
+    margin-bottom: 5px;
+}
+
+.reservation-card p {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 25px;
+}
+
+/* FORM ELEMENTS INSIDE RESERVATION CARD */
+.reservation-card .rdt-form-row {
+    display: flex;
+    flex-direction: column;
+    /* Force stacked in sidebar */
+    gap: 15px;
+}
+
+.reservation-card .rdt-form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.reservation-card label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--el-blue);
+}
+
+.reservation-card label span {
+    color: #ef4444;
+}
+
+.reservation-card input,
+.reservation-card select,
+.reservation-card textarea {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    color: white !important;
+    padding: 12px 15px !important;
+    border-radius: 6px !important;
+    width: 100% !important;
+    font-size: 0.95rem !important;
+}
+
+.reservation-card ::placeholder {
+    color: rgba(255, 255, 255, 0.5) !important;
+    opacity: 1;
+    /* Firefox */
+}
+
+.reservation-card select {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.reservation-card input:focus,
+.reservation-card select:focus,
+.reservation-card textarea:focus {
+    outline: none !important;
+    border-color: var(--el-blue) !important;
+    /* background: rgba(255, 255, 255, 0.08) !important; */
+}
+
+.reservation-card button {
+    background: var(--el-blue) !important;
+    color: var(--el-dark) !important;
+    font-weight: 700 !important;
+    border: none !important;
+    padding: 15px !important;
+    border-radius: 6px !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    margin-top: 10px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+}
+
+/* LAYOUT OPTIMIZATION */
+.tour-main-layout {
+    max-width: 1440px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    width: 100% !important;
+}
+
+/* MOBILE FIXES */
+@media (max-width: 768px) {
+    .tour-hero-block {
+        min-height: 400px !important;
+    }
+
+    .tour-hero-block h2 {
+        font-size: 2.2rem !important;
+        padding: 0 15px;
+        line-height: 1.2 !important;
+    }
+
+    .tour-hero-block p {
+        font-size: 1rem !important;
+        padding: 0 20px;
+    }
+
+    .el-blue-title {
+        font-size: 1.6rem !important;
+        padding: 0 10px;
+        word-wrap: break-word;
+    }
+
+    .el-centered-text {
+        padding: 0 15px;
+        text-align: center !important;
+    }
+
+    .itinerary-row {
+        margin-bottom: 40px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+
+    .itinerary-day-title {
+        font-size: 1.4rem !important;
+    }
+
+    .itinerary-image {
+        margin-top: 15px !important;
+        order: 2;
+        /* Always image below text on mobile */
+    }
+
+    .feature-cards-grid {
+        grid-template-columns: 1fr !important;
+        padding: 0 20px;
+    }
+
+    .reservation-card {
+        padding: 20px !important;
+        margin: 0 10px;
+    }
+
+    .rdt-form-row {
+        gap: 10px !important;
+    }
+}
+
+/* Ensure no clipping */
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    overflow-x: hidden;
+    /* Prevent horizontal scroll */
+}
