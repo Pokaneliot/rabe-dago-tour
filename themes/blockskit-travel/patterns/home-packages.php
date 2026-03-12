@@ -185,7 +185,7 @@
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|x-small","left":"var:preset|spacing|small"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"style":{"spacing":{"padding":{"left":"30px","right":"30px","top":"16px","bottom":"16px"}},"border":{"radius":"10px"}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#" style="border-radius:10px;padding-top:16px;padding-right:30px;padding-bottom:16px;padding-left:30px"><?php esc_html_e( 'View All Packages', 'blockskit-travel' ); ?></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( get_post_type_archive_link( RDT_TOUR_CPT_SLUG ) ?: home_url( '/tours/' ) ); ?>" style="border-radius:10px;padding-top:16px;padding-right:30px;padding-bottom:16px;padding-left:30px"><?php esc_html_e( 'View All Packages', 'blockskit-travel' ); ?></a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"textColor":"secondary-accent-text","className":"is-style-outline","style":{"spacing":{"padding":{"left":"30px","right":"30px","top":"15px","bottom":"15px"}},"border":{"radius":"10px","width":"1px"},"elements":{"link":{"color":{"text":"var:preset|color|secondary-accent-text"}}}},"borderColor":"secondary"} -->

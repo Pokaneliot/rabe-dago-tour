@@ -64,3 +64,12 @@ require_once get_stylesheet_directory() . '/inc/cpt.php';
 require_once get_stylesheet_directory() . '/inc/forms.php';
 require_once get_stylesheet_directory() . '/inc/mail.php';
 require_once get_stylesheet_directory() . '/inc/filters.php';
+require_once get_stylesheet_directory() . '/inc/blocks.php';
+
+// Flush rewrite rules once after Tour CPT is added.
+add_action( 'init', function() {
+    if ( get_option( 'rdt_tour_cpt_flush' ) !== '1' ) {
+        flush_rewrite_rules();
+        update_option( 'rdt_tour_cpt_flush', '1' );
+    }
+}, 99 );

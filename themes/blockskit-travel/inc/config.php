@@ -12,3 +12,4 @@ define('RDT_RESPONSE_TIME',   '24 hours');
 
 // CPT
 define('RDT_CPT_SLUG',        'reservation');
+define('RDT_TOUR_CPT_SLUG',   'tour');
